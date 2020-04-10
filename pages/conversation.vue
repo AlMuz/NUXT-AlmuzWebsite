@@ -102,7 +102,9 @@ export default {
           that.chat.push(value)
           resolve(1)
         }).then(() => {
-          window.scrollTo(0, document.body.scrollHeight)
+          if (process.client) {
+            window.scrollTo(0, document.body.scrollHeight)
+          }
         })
       }, 1000 * key)
     },
