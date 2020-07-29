@@ -40,6 +40,7 @@
 <script>
 export default {
   layout: 'conversation',
+  nuxtI18n: false,
   data() {
     return {
       nameInput: '',
