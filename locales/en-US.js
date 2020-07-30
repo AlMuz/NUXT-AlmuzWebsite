@@ -6,6 +6,11 @@ export default {
     aboutPage: 'About me',
     conversationPage: 'Conversation'
   },
+  default: {
+    days: 'Days',
+    months: 'Months',
+    years: 'Years'
+  },
   conversation: {
     great: 'Great!',
     nameYourself: 'Please, name yourself!',
@@ -48,7 +53,9 @@ export default {
     role: 'Role',
     company: 'Company',
     itIntern: 'Information Technology Intern',
-    webDev: 'Web Developer'
+    webDev: 'Web Developer',
+    frontEnd: 'Frontend Developer',
+    present: 'Present'
   },
   contactMePage: {
     contactMe: 'Contact me',

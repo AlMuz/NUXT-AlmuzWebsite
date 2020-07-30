@@ -6,6 +6,11 @@ export default {
     aboutPage: 'Обо мне',
     conversationPage: 'Беседа'
   },
+  default: {
+    days: 'Дней',
+    months: 'Месяцев',
+    years: 'Лет'
+  },
   conversation: {
     great: 'Замечательно!',
     nameYourself: 'Пожалуйста, представьтесь!',
@@ -48,7 +53,9 @@ export default {
     role: 'Роль',
     company: 'Компания',
     itIntern: 'Интерн АЙТИ',
-    webDev: 'Веб Разработчик'
+    webDev: 'Веб Разработчик',
+    frontEnd: 'Фронт-энд Разработчик',
+    present: 'Текущее время'
   },
   contactMePage: {
     contactMe: 'Свяжитесь со мной',

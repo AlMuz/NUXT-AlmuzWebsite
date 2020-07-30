@@ -6,6 +6,11 @@ export default {
     aboutPage: 'Par mani',
     conversationPage: 'Saruna'
   },
+  default: {
+    days: 'Dienas',
+    months: 'Mēneši',
+    years: 'Gadi'
+  },
   conversation: {
     great: 'Lieliski!',
     nameYourself: 'Lūdzu, nosauciet sevi!',
@@ -48,7 +53,9 @@ export default {
     role: 'Loma',
     company: 'Uzņēmums',
     itIntern: 'Informācijas tehnoloģiju interns',
-    webDev: 'Web Programmetajs'
+    webDev: 'Web Programmetajs',
+    frontEnd: 'Frontend Programmetajs',
+    present: 'Klāt'
   },
   contactMePage: {
     contactMe: 'Sazinies ar mani',
