@@ -84,6 +84,9 @@ module.exports = {
    */
   axios: {},
   i18n: {},
+  generate: {
+    fallback: '404.html'
+  },
   /*
    ** Build configuration
    */
